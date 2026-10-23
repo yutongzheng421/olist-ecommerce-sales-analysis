@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Raw data and database (do not commit)
+data/raw/*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated charts
+figures/
+outputs/
+*.png
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
